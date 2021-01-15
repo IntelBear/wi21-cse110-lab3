@@ -23,17 +23,30 @@
               <img src="crying_suns.jpeg"
                    alt="Crying Suns">
               <figcaption>Crying Suns Gameplay</figcaption>
+              <video controls width="250">
+                  <source src="Presented by Humble Bundle Crying Suns - Launch Trailer.mp4"
+                          type="video/webm">
+                  Video coulnd't load.
+              </video>
             <p>Here are things that I like about the latter:</p>
             <ol>
               <li><em>Hilarious</em> dialogue</li>
               <li>Lots of vaible strategies in combat</li>
-              <li>Old RPG style but introduces really cool new mechanics</li>
+              <li>Epic music</li>
             </ol>
-              
-            <figure>
-              <img src="ebf5.jpg"
-                   alt="Epic Battle Fantasy 5">
+            
+            <picture>
+              <source srcset="ebf5.jpg"
+                   media="(min-width: 800px)">
               <figcaption>Epic Battle Fantasy 5 Gameplay</figcaption>
+            </picture>
+            <figure>
+              <figcaption>Listen to the T-Rex:</figcaption>
+              <audio
+                  controls
+                  src="Nymphis Fae.mp3">
+                      The <code>audio</code> element didn't load.
+                </audio>
             </figure>
           </div>
           <aside>Disclaimer: I'm by no means a hardcore gamer of any kind.</aside>
@@ -71,6 +84,11 @@
           </p>
         </div>
       </section>
+      <canvas id="test_canvas" width="50" height="50">
+      </canvas>
+      <svg width="50" height="50">
+        <rect width="50" height="50" fill="red">
+      </svg>
     </main>
     <footer>
       <a href="https://www.linkedin.com/in/bryant-shao/">My LinkedIn</a>
