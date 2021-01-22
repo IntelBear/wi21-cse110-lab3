@@ -1,5 +1,5 @@
 # Standup Notes Template
-## Name
+## Name:
 1. What did you accomplish yesterday?
 2. What do you plan on acheiving today?
 3. What road blocks have you been having?
