@@ -21,3 +21,27 @@ p[pretty] {
 p::hover {
   background-color: yellow 
 }
+
+div, section {
+  background-color: orange 
+}
+
+div p {
+  text-align: center 
+}
+
+div > h1 {
+ text-align:left 
+}
+
+h1 ~ p {
+  background:#FFFFFF; 
+}
+
+h1 + p {
+  background:#FFFFFF; 
+}
+
+p.ugly {
+  background-color:red 
+}
