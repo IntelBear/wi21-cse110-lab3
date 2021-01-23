@@ -1,1 +1,23 @@
+.title {
+  color: brown 
+}
 
+#videopara {
+  color: purple 
+}
+
+* {
+  text-align: right 
+}
+
+p {
+  background-color: red 
+}
+
+p[pretty] {
+  background-color: pink 
+}
+
+p::hover {
+  background-color: yellow 
+}
