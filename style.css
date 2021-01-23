@@ -1,9 +1,10 @@
+/* This is gonna be the most chaotic website ever*/
 .title {
-  color: brown; 
+  color: rgb(255,100,100); 
 }
 
 #videopara {
-  color: purple; 
+  color: rgba(100,100,100,0.3); 
 }
 
 * {
@@ -15,15 +16,15 @@ p {
 }
 
 p[pretty] {
-  background-color: pink; 
+  background-color: #777777; 
 }
 
 p::hover {
-  background-color: yellow; 
+  background-color: #3d3; 
 }
 
 div, section {
-  background-color: orange; 
+  background-color: hsl(359,20%,50%); 
 }
 
 div p {
@@ -43,7 +44,7 @@ h1 + p {
 }
 
 p.ugly {
-  background-color:red; 
+  background-color:hsla(200,50%,25%,0.4); 
 }
 
 div {
@@ -90,7 +91,13 @@ p.messy{
 
 p.funky{
   border-style: groove inset outset dashed;
-  border-color:gray;
+  border-color:red;
   border-width:200px;
   border-radius:25px;
+}
+
+body {
+  color:blue; 
+  text-decoration:underline;
+  font-family: 'Roboto', sans-serif;
 }
