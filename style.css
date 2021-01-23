@@ -96,8 +96,34 @@ p.funky{
   border-radius:25px;
 }
 
+section:hover {
+   color:purple
+}
+
+section:active {
+  color: black 
+}
+
 body {
   color:blue; 
   text-decoration:underline;
   font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: orange;
+  }
+}
+
+.flex_container {
+  display: flex;
+  flexwrap: nowrap;
+  justify-content: center;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns:[hi] 40px [no] 50px [why] 60px;
+  grid-template-rows:[bye] 40px [yes] 50px [when] 60px;
 }
